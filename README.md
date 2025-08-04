@@ -1,3 +1,11 @@
+# Tutoriais:
+
+1- Criação de um servidor MCP próprio e depuração
+app/01MCPServer/server.py
+
+2-Criação do cliente MCP (uma aplicação que vai executar o servidor MCP )
+Ter clientes que possa executar o servidor mcp criado
+
 # Guia do Model Context Protocol (MCP)
 
 ## ✅ O que é **Agentes**
@@ -54,6 +62,8 @@ Claro! Aqui vai uma explicação simples e objetiva para cada item:
 
 É a **aplicação que faz a pergunta ou envia uma solicitação** para o modelo de linguagem.
 Exemplo: um chatbot no site que o usuário usa para conversar com a IA.
+
+Podemos criar o ser
 
 ---
 

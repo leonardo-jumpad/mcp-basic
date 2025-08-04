@@ -44,13 +44,13 @@ Aluguel: R$ 1200,00
 ### Opção 1 - STDIO (mais simples): vai rodar e nada vai acontecer poois nao tem o client
 
 ```bash
-mcp run app/01basic/server.py
+mcp run app/01MCPServer/server.py
 ```
 
 ### Opção 2 - HTTP/SSE: vai rodar e nada vai acontecer poois nao tem o client
 
 ```bash
-mcp run app/01basic/server.py --transport sse
+mcp run app/01MCPServer/server.py --transport sse
 ```
 
 ## Modo depuração: ferrmaneta para testar os servidores ante de criar um cliente
@@ -58,7 +58,7 @@ mcp run app/01basic/server.py --transport sse
 ### Opção 3 - Modo desenvolvimento: tem que ter o node instalado para depurar
 
 ```bash
-mcp dev app/01basic/server.py
+mcp dev app/01MCPServer/server.py
 ```
 
 ## passos:
