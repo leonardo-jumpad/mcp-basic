@@ -11,9 +11,9 @@
 -   Caminho: app/02MCPClient/class/mcp_client.py
 -   Ter clientes que possa executar o servidor mcp criado
 
-Fluxo de funcionamento entre o servidor e o cliente no seu sistema baseado em **MCP (Model Context Protocol)**:
-
 ---
+
+Fluxo de funcionamento entre o servidor e o cliente no seu sistema baseado em **MCP (Model Context Protocol)**:
 
 -   O **cliente** inicia a comunicação com o **servidor MCP**.
 -   O cliente pode:
@@ -36,7 +36,7 @@ Fluxo de funcionamento entre o servidor e o cliente no seu sistema baseado em **
 
 # Guia do Model Context Protocol (MCP)
 
-## ✅ O que é **Agentes**
+## ✅ O que são **Agentes**
 
 -   Aplicações baseadas em LLms
 -   Tem capacidade de ação
