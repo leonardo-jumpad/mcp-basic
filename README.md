@@ -1,10 +1,13 @@
 # Tutoriais:
 
 1- Criação de um servidor MCP próprio e depuração
-app/01MCPServer/server.py
+
+-   Caminho: app/01MCPServer/server.py
 
 2-Criação do cliente MCP (uma aplicação que vai executar o servidor MCP )
-Ter clientes que possa executar o servidor mcp criado
+
+-   Caminho: app/02MCPClient/class/mcp_client.py
+-   Ter clientes que possa executar o servidor mcp criado
 
 # Guia do Model Context Protocol (MCP)
 
@@ -178,19 +181,11 @@ python app/...
 Principais bibliotecas usadas:
 
 ```bash
-sudo apt install mmv
-```
-
-```bash
 pip install mcp
 ```
 
-Principais bibliotecas utilizadas:
+Principais dependências
 
--   LangChain e LangGraph — para criação de agentes e orquestração de fluxos com LLMs.
--   OpenAI e LiteLLM — acesso e compatibilidade com múltiplos provedores de IA.
--   Guardrails AI — para validação e controle das saídas dos modelos.
--   Pydantic e Dataclasses JSON — para modelagem e validação estruturada de dados.
--   HTTPX, Aiohttp e PyGithub — integração com APIs REST e GitHub.
--   SQLAlchemy — ORM para banco de dados.
--   OpenTelemetry — rastreamento e observabilidade.
+```bash
+sudo apt install mmv
+```
