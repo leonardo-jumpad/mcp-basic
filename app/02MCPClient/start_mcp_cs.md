@@ -1,15 +1,19 @@
+# Client mcp executando um Server mcp
+
 Para rodar o código do cliente e do servidor MCP (Model Context Protocol), você precisa seguir alguns passos:
 
-## 1. Execução do mcp client STDIO
+### Opção 1 - STDIO
 
-```bash
-python app/02MCPClient/client_example.py
-```
-
-## 2. Execução do mcp server STDIO
+## 1. Execução do mcp server - STDIO
 
 ```bash
 mcp run app/01MCPServer/server.py
+```
+
+## 2. Execução do mcp client - STDIO
+
+```bash
+python app/02MCPClient/client_example.py
 ```
 
 Resposta:
@@ -38,4 +42,20 @@ name='formatar_dado_cadastral' title=None description='Prompt para formatar dado
 Formatando Dado Cadastral
                     INFO     Processing request of type GetPromptRequest                  server.py:625
 Formate o CPF informado no padrão xxx.xxx.xxx-xx: 12312312312
+```
+
+### Opção 2 - HTTP/SSE:
+
+descomentar # await client.initialize_with_sse("http://localhost:8000/sse")
+
+## 1. Execução do mcp server - STDIO
+
+```bash
+mcp run app/01MCPServer/server.py --transport sse
+```
+
+## 2. Execução do mcp client - STDIO
+
+```bash
+python app/02MCPClient/client_example.py
 ```

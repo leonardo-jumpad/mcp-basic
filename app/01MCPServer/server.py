@@ -29,3 +29,6 @@ def formatar_dado_cadastral(cpf: str) -> str:
     """Prompt para formatar dados cadastrais"""
     return f"Formate o CPF informado no padrão xxx.xxx.xxx-xx: {cpf}"
 
+
+
+# executar server: mcp run app/01MCPServer/server.py
