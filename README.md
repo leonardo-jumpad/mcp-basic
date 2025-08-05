@@ -1,5 +1,7 @@
 # Tutoriais:
 
+![Descrição da imagem](doc/image/mcp.png)
+
 1- Criação de um servidor MCP próprio e depuração
 
 -   Caminho: app/01MCPServer/server.py
@@ -8,6 +10,29 @@
 
 -   Caminho: app/02MCPClient/class/mcp_client.py
 -   Ter clientes que possa executar o servidor mcp criado
+
+Fluxo de funcionamento entre o servidor e o cliente no seu sistema baseado em **MCP (Model Context Protocol)**:
+
+---
+
+-   O **cliente** inicia a comunicação com o **servidor MCP**.
+-   O cliente pode:
+
+    -   Listar ferramentas registradas (tools)
+    -   Listar recursos (resources)
+    -   Listar prompts (prompts)
+
+-   Ele pode **executar** cada um desses componentes:
+
+    -   `adiciona(a, b)` → realiza a soma no servidor
+    -   `despesas_mensais()` → lê um arquivo e retorna o conteúdo
+    -   `formatar_dado_cadastral(cpf)` → retorna uma string formatada
+
+-   Todas as respostas são retornadas ao cliente, que pode exibir no terminal.
+
+---
+
+![Descrição da imagem](doc/image/diagrammcp.png)
 
 # Guia do Model Context Protocol (MCP)
 
